@@ -15,11 +15,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 public class MyClient {
-    private static final int DEFAULT_MAX_THREAD_NUM = 64;
-    private static final int DEFAULT_DAY_NUMBER = 1;
-    private static final int DEFAULT_USER_NUMBER = 100000;
-    private static final int DEFAULT_TEST_NUMBER = 100;
-    private static String ipAddress = "localhost";
 
     private static String address = "http://18.224.40.129:8080";
     //  private static String address = "https://wlcv8chfv5.execute-api.us-east-1.amazonaws.com/Prod/myresource";
