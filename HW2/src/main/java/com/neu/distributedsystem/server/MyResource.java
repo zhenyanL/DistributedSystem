@@ -5,6 +5,7 @@ import com.neu.distributedsystem.server.DAO.DailyCounterDAO;
 import com.neu.distributedsystem.server.DO.DailyCounter;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -47,9 +48,28 @@ public class MyResource {
     @Path("/single/{userID}/{dayID}")
     @Produces(MediaType.TEXT_PLAIN)
     public int getByDay(@PathParam("userID") String userID,
-                           @PathParam("dayID") String dayID) throws SQLException {
+                        @PathParam("dayID") String dayID) throws SQLException {
         int sum = dailyCounterDAO.getCountForDay(Integer.parseInt(userID), Integer.parseInt(dayID));
         return sum;
+    }
+
+
+    @GET
+    @Path("/current/{userID}")
+    @Produces(MediaType.TEXT_PLAIN)
+    public int getByDay(@PathParam("userID") String userID) throws SQLException {
+        int sum = dailyCounterDAO.getCurrentDay(Integer.parseInt(userID));
+        return sum;
+    }
+
+
+
+    @DELETE
+    @Path("/clear")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String deleteTable() throws SQLException {
+        dailyCounterDAO.clear();
+        return "Clear!";
     }
 
 

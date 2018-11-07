@@ -5,9 +5,11 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -16,7 +18,10 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class MyClient {
 
-    private static String address = "http://18.224.40.129:8080";
+//    private static String address = "http://localhost:8080";
+//    HW2LB-1830832122.us-east-2.elb.amazonaws.com
+//    private static String address = "http://HW2LB-1830832122.us-east-2.elb.amazonaws.com:8080";
+    private static String address = "http://18.191.207.19:8080";
     //  private static String address = "https://wlcv8chfv5.execute-api.us-east-1.amazonaws.com/Prod/myresource";
     private static String port = "8080";
 
@@ -45,6 +50,8 @@ public class MyClient {
         final Client client = ClientBuilder.newClient();
 
         for( int i = 0; i < percent.length; i++) {
+            client.target(address).path(prefix+"clear").request().delete();
+
             int numThreads = (int) (maxThreads * percent[i]);
             List<Statistic> list = new ArrayList<>();
             ExecutorService executorService = Executors.newFixedThreadPool(30);
@@ -67,6 +74,7 @@ public class MyClient {
                                 int users = ThreadLocalRandom.current().nextInt(1, userPopulation);
                                 int intervals = ThreadLocalRandom.current().nextInt(timeIntervals[var][0], timeIntervals[var][1]);
                                 int stepCounts = ThreadLocalRandom.current().nextInt(1, maxSteps);
+
                                 long start1 = System.currentTimeMillis();
                                 String res = client.target(address).path(prefix + users + "/1/" + intervals + "/" + stepCounts).request(MediaType.TEXT_PLAIN)
                                         .post(Entity.entity("", MediaType.TEXT_PLAIN), String.class);
@@ -124,6 +132,7 @@ public class MyClient {
             System.out.println("=======================");
 
         }
+
 
 
 //        while(!executorService.isTerminated());
