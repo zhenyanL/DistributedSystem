@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class DatabaseConn {
 
 
-  private static final String url = "jdbc:mysql://mydb2.cqzextaopfeg.us-east-2.rds.amazonaws.com:3306/hw2db";
+  private static final String url = "jdbc:mysql://hw2large.chstt9bcp0re.us-west-2.rds.amazonaws.com:3306/hw2db";
   private static final String userName = "abcd1234";
   private static final String password = "abcd1234";
   private static final String schema = "hw2db";
@@ -34,7 +34,11 @@ private static ComboPooledDataSource dataSourcePool;
     dataSourcePool.setAcquireIncrement(5);
     dataSourcePool.setInitialPoolSize(20);
     dataSourcePool.setMinPoolSize(2);
-    dataSourcePool.setMaxPoolSize(50);
+    dataSourcePool.setMaxPoolSize(128);
+
+    dataSourcePool.setMaxIdleTime(60);
+
+
 
   }
 

@@ -46,8 +46,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Plot {
 
-  private static String address = "http://localhost:8080";
-//      private static String address = "http://18.220.66.162:8080";
+  private static String address = "http://HW2-620867982.us-west-2.elb.amazonaws.com:8080";
+//      private static String address = "http://54.191.170.77:8080";
   //  private static String address = "https://wlcv8chfv5.execute-api.us-east-1.amazonaws.com/Prod/myresource";
   private static String port = "8080";
 

@@ -20,12 +20,12 @@ public class MyClient {
 
 //    private static String address = "http://localhost:8080";
 //    HW2LB-1830832122.us-east-2.elb.amazonaws.com
-//    private static String address = "http://HW2LB-1830832122.us-east-2.elb.amazonaws.com:8080";
-    private static String address = "http://18.191.207.19:8080";
+    private static String address = "http://HW2-620867982.us-west-2.elb.amazonaws.com:8080";
+//    private static String address = "http://34.216.171.207:8080";
     //  private static String address = "https://wlcv8chfv5.execute-api.us-east-1.amazonaws.com/Prod/myresource";
     private static String port = "8080";
 
-    private static int maxThreads = 32;
+    private static int maxThreads = 256;
 
     private static int numIter = 100;
 

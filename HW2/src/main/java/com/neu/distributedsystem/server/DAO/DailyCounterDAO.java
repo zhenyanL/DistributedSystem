@@ -118,6 +118,17 @@ public class DailyCounterDAO {
         e.printStackTrace();
         throw  e;
       }
+      finally {
+        //一定要close
+        if(connection != null) {
+          connection.close();
+        }
+        if(statement != null) {
+          statement.close();
+        }
+
+      }
+
   }
 
 

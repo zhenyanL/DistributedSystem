@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state relative-caret-position="310">
+              <caret line="53" column="25" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="53" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -26,11 +26,12 @@
       <file leaf-file-name="MyClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Client/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1680">
-              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="-78">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
-                <element signature="e#2284#4031#0" expanded="true" />
-                <element signature="e#4030#4031#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2283#4030#0" expanded="true" />
+                <element signature="e#4029#4030#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,17 +52,35 @@
       <file leaf-file-name="DatabaseConn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/Database/DatabaseConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="12" column="99" lean-forward="false" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComboPooledDataSource.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="238" column="14" lean-forward="false" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out0.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out0.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="DailyCounterDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/DAO/DailyCounterDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="124" column="9" lean-forward="false" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+              <folding>
+                <marker date="1541663804000" expanded="true" signature="424:514" ph="insert into counter... " />
+                <marker date="1541663804000" expanded="true" signature="565:639" ph="select sum(s... counter" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -75,24 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineChart2.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LineChart2.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Plot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Client/Plot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1049">
-              <caret line="180" column="39" lean-forward="false" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="166">
+              <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2893#4503#0" expanded="true" />
+                <element signature="e#4502#4503#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out.jpeg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="out.jpeg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -137,14 +153,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Client/GetPostClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyClient/GetPostClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyClient/MyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/Database/DatabaseConn.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/MyResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/DAO/DailyCounterDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/Statistic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Client/MyClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Client/Plot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/DAO/DailyCounterDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/Database/DatabaseConn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/Plot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/MyClient.java" />
       </list>
     </option>
   </component>
@@ -169,9 +185,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="85" />
-    <option name="y" value="195" />
-    <option name="width" value="1400" />
+    <option name="x" value="999" />
+    <option name="y" value="23" />
+    <option name="width" value="441" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -219,91 +235,6 @@
               <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
               <item name="HW2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="neu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="neu" type="462c0819:PsiDirectoryNode" />
-              <item name="distributedsystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="neu" type="462c0819:PsiDirectoryNode" />
-              <item name="distributedsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -547,47 +478,47 @@
       <workItem from="1540865673188" duration="46148000" />
       <workItem from="1541322957281" duration="9387000" />
       <workItem from="1541493236557" duration="6091000" />
-      <workItem from="1541549655745" duration="3946000" />
+      <workItem from="1541549655745" duration="21929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65572000" />
+    <option name="totallyTimeSpent" value="83555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20556228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35187423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36275697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62636036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3446191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5719468" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32546496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20556228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,14 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Plot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -637,8 +560,9 @@
         <state relative-caret-position="1935">
           <caret line="129" column="11" lean-forward="false" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
           <folding>
-            <element signature="e#2284#4031#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2283#4030#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,7 +602,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2893#4503#0" expanded="true" />
+            <element signature="e#4502#4503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -700,8 +628,9 @@
         <state relative-caret-position="1950">
           <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <element signature="e#2284#4031#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2283#4030#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,8 +658,9 @@
         <state relative-caret-position="90">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#2284#4031#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2283#4030#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,7 +679,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3210">
           <caret line="214" column="5" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="214" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2893#4503#0" expanded="true" />
+            <element signature="e#4502#4503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,9 +705,8 @@
         <state relative-caret-position="1485">
           <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541303176000" expanded="true" signature="424:514" ph="insert into counter... " />
-            <marker date="1541303176000" expanded="true" signature="565:639" ph="select sum(s... counter" />
+            <marker date="1541663804000" expanded="true" signature="424:514" ph="insert into counter... " />
+            <marker date="1541663804000" expanded="true" signature="565:639" ph="select sum(s... counter" />
           </folding>
         </state>
       </provider>
@@ -802,8 +735,9 @@
         <state relative-caret-position="304">
           <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
-            <element signature="e#2284#4031#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2283#4030#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,18 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/DAO/DailyCounterDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541303176000" expanded="true" signature="424:514" ph="insert into counter... " />
-            <marker date="1541303176000" expanded="true" signature="565:639" ph="select sum(s... counter" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,19 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/Database/DatabaseConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/MyResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -890,31 +799,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="238" column="14" lean-forward="false" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/DAO/DailyCounterDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="124" column="9" lean-forward="false" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <folding>
+            <marker date="1541663804000" expanded="true" signature="424:514" ph="insert into counter... " />
+            <marker date="1541663804000" expanded="true" signature="565:639" ph="select sum(s... counter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neu/distributedsystem/server/Database/DatabaseConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="99" lean-forward="false" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client/Plot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="180" column="39" lean-forward="false" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="166">
+          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2893#4503#0" expanded="true" />
+            <element signature="e#4502#4503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client/MyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="-78">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="e#2284#4031#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2283#4030#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="310">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="53" selection-end-column="25" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
