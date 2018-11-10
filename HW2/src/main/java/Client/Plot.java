@@ -51,9 +51,9 @@ public class Plot {
   //  private static String address = "https://wlcv8chfv5.execute-api.us-east-1.amazonaws.com/Prod/myresource";
   private static String port = "8080";
 
-  private static int maxThreads = 128;
+  private static int maxThreads = 500;
 
-  private static int numIter = 100;
+  private static int numIter = 500;
 
   private static double[] percent = {0.1,0.5,1,0.25};
 
