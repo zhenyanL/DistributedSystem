@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS Serverless Jersey API - distributedsystem::hw3
+Outputs:
+  Hw3Api:
+    Description: URL for application
+    Export:
+      Name: Hw3Api
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ping
+Resources:
+  Hw3Function:
+    Properties:
+      CodeUri: s3://distributedhw3/a3178e77f1ee9a3e6c93a1215aba9605
+      Events:
+        GetResource:
+          Properties:
+            Method: any
+            Path: /{proxy+}
+          Type: Api
+      Handler: distributedsystem.StreamLambdaHandler::handleRequest
+      MemorySize: 512
+      Policies: AWSLambdaBasicExecutionRole
+      Runtime: java8
+      Timeout: 15
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
