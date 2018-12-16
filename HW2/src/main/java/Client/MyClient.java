@@ -50,7 +50,7 @@ public class MyClient {
 
     private static int maxThreads = 256;
 
-    private static int numIter = 80;
+    private static int numIter = 100;
 
     private static double[] percent = {0.1,0.5,1,0.25};
 
@@ -122,7 +122,7 @@ public class MyClient {
                                 long end1 = System.currentTimeMillis();
 //                                System.out.println(res);
 //                               statistic.addPostResForPlot(new String[]{res, String.valueOf(prevEnd + end1 - start)});
-                                statistic.addLatency(end1-start1);
+                                statistic.addLatency(end1-start1,false);
                                 statistic.addPostRes(res);
 
                                 long start2 = System.currentTimeMillis();
@@ -131,7 +131,7 @@ public class MyClient {
 
                                 long end2 = System.currentTimeMillis();
 //                              statistic.addGetResForPlot(new String[]{res, String.valueOf(prevEnd + end2 - start)});
-                                statistic.addLatency(end2-start2);
+                                statistic.addLatency(end2-start2,true);
                                 statistic.addGetRes(res2);
 
                             }
@@ -150,33 +150,61 @@ public class MyClient {
 
 
 
-            List<Long> latencies = new ArrayList<>();
-            long totalThrough = 0;
+          List<Long> latencies = new ArrayList<>();
+          List<Long> readLatencies = new ArrayList<>();
+          List<Long> writeLatencies = new ArrayList<>();
+          long totalThrough = 0;
 
-      for(Statistic statistic :list ){
-        latencies.addAll(statistic.getLatencies());
-        long res = statistic.getThroughPut();
-        totalThrough += res;
+          for(Statistic statistic :list ){
+            latencies.addAll(statistic.getLatencies());
+            readLatencies.addAll(statistic.getReadLatencies());
+            writeLatencies.addAll(statistic.getWriteLatencies());
+            long res = statistic.getThroughPut();
+            totalThrough += res;
 
-      }
+          }
 
-            Collections.sort(latencies);
-            long sum = 0;
-            for(long latency : latencies){
-                sum += latency;
-            }
-            float mean = sum/(float)(latencies.size());
-            float median =
-                    latencies.size()%2 == 0? (latencies.get((latencies.size()-1)/2) + latencies.get((latencies.size()-1)/2+1))/2 : latencies.get((latencies.size()-1)/2);
+          Collections.sort(latencies);
+          long sum = 0;
+          for(long latency : latencies){
+            sum += latency;
+          }
+          float mean = sum/(float)(latencies.size());
+          float median =
+                  latencies.size()%2 == 0? (latencies.get((latencies.size()-1)/2) + latencies.get((latencies.size()-1)/2+1))/2 : latencies.get((latencies.size()-1)/2);
 
-            System.out.println("mean latency:"+mean +"ms");
-            System.out.println("median latency:"+median +"ms");
-            System.out.println("99th latency:"+latencies.get((int)(latencies.size()*0.99))+"ms");
-            System.out.println("95th latency:"+latencies.get((int)(latencies.size()*0.95))+"ms");
-            System.out.println("total throughput:" + totalThrough);
-            System.out.println("avg throughput(per second):" + totalThrough/((end-start)/1000));
 
-            System.out.println("=======================");
+          Collections.sort(readLatencies);
+          long readSum = 0;
+          for(long latency : readLatencies){
+            readSum += latency;
+          }
+          float readMean = readSum/(float)(readLatencies.size());
+
+          Collections.sort(writeLatencies);
+          long writeSum = 0;
+          for(long latency : writeLatencies){
+            writeSum += latency;
+          }
+          float writeMean = writeSum/(float)(writeLatencies.size());
+
+
+
+          System.out.println("mean latency:"+mean +"ms");
+//            System.out.println("median latency:"+median +"ms");
+//            System.out.println("99th latency:"+latencies.get((int)(latencies.size()*0.99))+"ms");
+          System.out.println("95th latency:"+latencies.get((int)(latencies.size()*0.95))+"ms");
+          System.out.println("total throughput:" + totalThrough);
+          System.out.println("avg throughput(per second):" + totalThrough/((end-start)/1000));
+//            System.out.println();
+
+          System.out.println("read mean latency:"+readMean +"ms");
+          System.out.println("95th read latency:"+readLatencies.get((int)(readLatencies.size()*0.95))+"ms");
+//            System.out.println("write mean latency:"+writeMean +"ms");
+//            System.out.println("95th write latency:"+writeLatencies.get((int)(writeLatencies.size()*0.95))+"ms");
+
+
+          System.out.println("=======================");
 
         }
 

@@ -16,6 +16,8 @@ public class Statistic {
   private int numReq;
   private int numSucc;
   private List<Long> latencies;
+  private List<Long> readLatencies;
+  private List<Long> writeLatencies;
   private List<String> postRes;
   private List<String> getRes;
 
@@ -27,6 +29,8 @@ public class Statistic {
     numReq = 0;
     numSucc = 0;
     latencies = new ArrayList<>();
+    readLatencies = new ArrayList<>();
+    writeLatencies = new ArrayList<>();
     postRes = new ArrayList<>();
     getRes = new ArrayList<>();
 
@@ -42,8 +46,14 @@ public class Statistic {
     numSucc++;
   }
 
-  public void addLatency(long time){
+  public void addLatency(long time,boolean isRead){
     latencies.add(time);
+    if(isRead){
+      readLatencies.add(time);
+    }
+    else {
+      writeLatencies.add(time);
+    }
 //    System.out.println(time);
 //    System.out.println(latencies == null);
   }
@@ -76,6 +86,8 @@ public class Statistic {
   public List<Long> getLatencies() {
     return latencies;
   }
+  public List<Long> getReadLatencies(){ return readLatencies;}
+  public List<Long> getWriteLatencies(){ return writeLatencies;}
 
   public void setLatencies(List<Long> latencies) {
     this.latencies = latencies;

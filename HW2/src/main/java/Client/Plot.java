@@ -153,7 +153,7 @@ public class Plot {
                 long end1 = System.currentTimeMillis();
 //                                System.out.println(res);
                 statistic.addPostResForPlot(new String[]{res, String.valueOf(end1 - start)});
-                statistic.addLatency(end1 - start1);
+                statistic.addLatency(end1 - start1,false);
                 statistic.addPostRes(res);
 
                 long start2 = System.currentTimeMillis();
@@ -163,7 +163,7 @@ public class Plot {
 //                                System.out.println(res2);
                 long end2 = System.currentTimeMillis();
                 statistic.addGetResForPlot(new String[]{res2, String.valueOf(end2 - start)});
-                statistic.addLatency(end2 - start2);
+                statistic.addLatency(end2 - start2,true);
                 statistic.addGetRes(res2);
 
               }
