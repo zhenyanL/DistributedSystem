@@ -21,6 +21,7 @@ public class DailyCounterDAO {
   private static final String clearStatement = "truncate table " + tableName;
   private static final String queryCurrentStatement = "select sum(stepCount), dayNum from "+tableName+
           " where userID = ? group by dayNum order by dayNum Desc limit 1";
+
   private static JedisPool jedisPool;
 
   static {
